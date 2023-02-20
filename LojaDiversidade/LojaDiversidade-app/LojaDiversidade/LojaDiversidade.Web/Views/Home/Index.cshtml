@@ -1,0 +1,33 @@
+﻿@model IEnumerable<LojaDiversidade.Web.Models.ProductViewModel>
+<link rel="stylesheet" href="/css/product.css" asp-append-version="true" />
+
+<form>
+    <div class="container row">
+        <h2> Bem vindo! Loja de Diversidades</h2>
+       
+            <h1>
+                <li class="nav-item">
+                <a class="nav-link" asp-action="Login" asp-controller="Home">Efetuar Login</a>
+            </li>
+        </h1>
+        
+        @if (User.IsInRole("Admin"))
+        {
+            <h1>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Products" asp-action="Index">Estoque de Produtos</a>
+            </li>
+           </h1>
+
+           
+        }
+        @if (User.IsInRole("Client"))
+        {
+            <h1>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="BuyProducts" asp-action="Index">lista de ofertas</a>
+            </li>
+            </h1>
+        }
+    </div>
+</form>
