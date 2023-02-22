@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VLmptoPm0jjmRwjEboOTLK0ucfES7flFVd3g5KwkWs0MeU9yAJaf1mGMSFt+DZuNmsMmdPUVHytp38QRRIZjVA==",
+  "dgSpecHash": "CYIhLmSyjc/AHnx8bWqPdWIboIFNgDGYpyGyrvBpbMPKXnsE9d7NVBlbRXWyg4GaTGJ8ZEahTxrtDBhdska67Q==",
   "success": true,
-  "projectFilePath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\LojaDiversidade.DiscountApi.csproj",
+  "projectFilePath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\LojaDiversidade.DiscountApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cold\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Cold\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

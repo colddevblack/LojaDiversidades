@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8AyoVsyVgAKjXDsYradHhERc+pHHB2DUuA28GuYBenHxsZenHt8iQmtYYGOrOkMzSKUELZYqZ7Dy8rgR7+79iQ==",
+  "dgSpecHash": "xNOUjJmCljjVsAoya1Tx/EtkV677f+NMRCvOAX7i10MKAisuv8Le1nm6XA+uo8nnvKtIU1t2C9o9xDvuFRAU9A==",
   "success": true,
-  "projectFilePath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj",
+  "projectFilePath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Cold\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Cold\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

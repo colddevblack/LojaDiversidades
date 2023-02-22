@@ -10005,11 +10005,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.Web\\LojaDiversidade.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.Web\\LojaDiversidade.Web.csproj",
       "projectName": "LojaDiversidade.Web",
-      "projectPath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.Web\\LojaDiversidade.Web.csproj",
+      "projectPath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.Web\\LojaDiversidade.Web.csproj",
       "packagesPath": "C:\\Users\\Cold\\.nuget\\packages\\",
-      "outputPath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.Web\\obj\\",
+      "outputPath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

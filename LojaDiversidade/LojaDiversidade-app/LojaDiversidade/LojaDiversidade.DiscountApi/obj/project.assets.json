@@ -4028,11 +4028,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\LojaDiversidade.DiscountApi.csproj",
+      "projectUniqueName": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\LojaDiversidade.DiscountApi.csproj",
       "projectName": "LojaDiversidade.DiscountApi",
-      "projectPath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\LojaDiversidade.DiscountApi.csproj",
+      "projectPath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\LojaDiversidade.DiscountApi.csproj",
       "packagesPath": "C:\\Users\\Cold\\.nuget\\packages\\",
-      "outputPath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\obj\\",
+      "outputPath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.DiscountApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

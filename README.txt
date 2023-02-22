@@ -3,12 +3,43 @@ Loja Diversidade Manual
 Como executar:
 1- configurar solutions para serem todas simultaneamente executadas na solution
 LojaDiversidade ir em propriedades:
-2- por se tratar de um projeto com ORM EntityFrameworkCore, va em Ferramentas
-> Gerenciador de Pacotes do Nuget > Console do Gerenciador de pacotes
-execute o comando: update-database, para cada projeto ou seja:
-LojaDiversidade.CartApi, LojaDiversidade.DiscountApi,
-LojaDiversidade.IdentityServer, LojaDiversidade.ProductApi com
-exceção do LojaDiversidade.Web, que não possui o EntityFrameworkCore
+2-	 por se tratar de um projeto com ORM EntityFrameworkCore, va em Ferramentas > Gerenciador de Pacotes do Nuget > Console do Gerenciador de pacotes
+execute os comandos: Add-Migration inicial e depois update-database, para cada projeto ou seja: 
+LojaDiversidade.CartApi, LojaDiversidade.DiscountApi, LojaDiversidade.IdentityServer, LojaDiversidade.ProductApi com exceção do LojaDiversidade.Web, que não possui o EntityFrameworkCore
+Se já existir pasta Migrations favor excluir antes da execução dos
+comandos
+
+No caso da LojaDiversidade.ProductApi será necessário um segundo comando de migration para inclusão de produtos, execute Add-Migration SeedProducts
+No arquivo de migrations SeedProducts, inclua o código abaixo para criação de produtos:
+using Microsoft.EntityFrameworkCore.Migrations;
+
+#nullable disable
+
+namespace LojaDiversidade.ProductApi.Migrations
+{
+    /// <inheritdoc />
+    public partial class SeedProducts : Migration
+    {
+        /// <inheritdoc />
+        /// <inheritdoc />
+        protected override void Up(MigrationBuilder mb)
+        {
+            mb.Sql("Insert Into Products(Name,Price,Description,Stock,ImageURL,CategoryId) Values('Caderno',7.55,'Caderno Espiral',10,'caderno1.jpg',1)");
+
+            mb.Sql("Insert Into Products(Name,Price,Description,Stock,ImageURL,CategoryId) Values('Lápis',3.45,'Lápis Preto',20,'lapis1.jpg',1)");
+
+            mb.Sql("Insert Into Products(Name,Price,Description,Stock,ImageURL,CategoryId) Values('Clips',5.33,'Clips para papel',50,'clips1.jpg',2)");
+        }
+
+        /// <inheritdoc />
+        protected override void Down(MigrationBuilder mb)
+        {
+            mb.Sql("delete from Products");
+        }
+    }
+}
+e depois update-database.
+
 
 3- Logar no sistema após a execução clique no link efetue login ou login
 Entre com usuário e senha
@@ -41,10 +72,9 @@ LojaDiversidade_PROMO_10
 
 
 Clique em continue compra efetuada
-
 Composição do projeto:
 LojaDiversidade.CartApi – api responsável pelo carrinho de compras
 LojaDiversidade.DiscountApi- api responsável pelo cupon de desconto
 LojaDiversidade.IdentityServer- api responsável pelos acessos e regras
 LojaDiversidade.ProductApi - api responsável pelo estoque, produtos e categorias de produtos
-Essas apis podem ser testadas separadamente via swagger 
+Essas apis podem ser testadas separadamente via swagger conforme exemplo abaixo:

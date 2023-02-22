@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj": {}
+    "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj": {}
   },
   "projects": {
-    "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj": {
+    "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj",
+        "projectUniqueName": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj",
         "projectName": "LojaDiversidade.CartApi",
-        "projectPath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj",
+        "projectPath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\LojaDiversidade.CartApi.csproj",
         "packagesPath": "C:\\Users\\Cold\\.nuget\\packages\\",
-        "outputPath": "F:\\desafiocomunike\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\obj\\",
+        "outputPath": "C:\\Users\\Cold\\Documents\\TesteComunike\\LojaDiversidades\\LojaDiversidade\\LojaDiversidade-app\\LojaDiversidade\\LojaDiversidade.CartApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
